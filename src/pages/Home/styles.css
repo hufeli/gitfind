@@ -1,0 +1,95 @@
+.content {
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    height: 80vh;
+    position: absolute;
+    left: 0;
+}
+
+.info {
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+input {
+    width: 85%;
+    min-width: 250px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    border-radius: 22px;
+    margin-right: 12px;
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+input:hover {
+    transition: border-color 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+button {
+    background-color: #2d333b;
+    border: 1px solid #999999;
+    border-radius: 22px;
+    margin-right: 12px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #1a1a1d;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.profile {
+    display: flex;
+    margin: 40px 0;
+}
+
+.profile .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid #e5e5e5;
+    margin-right: 32px;
+}
+
+.profile h3 {
+    color: #999999;
+    font-size: 24px;
+    margin: 0;
+}
+
+.profile span {
+    display: block;
+    color: #999999;
+    font-size: 12px;
+    margin: 0;
+}
+
+.profile p {
+    color: #999999;
+    font-size: 12px;
+    margin: 20px 0 0 0;
+}
+
+.repo {
+    font-size: 32px;
+    color: #ffffff;
+    margin: 12px 0;
+    text-align: center;
+}
